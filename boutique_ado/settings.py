@@ -31,7 +31,7 @@ SECRET_KEY = "s%g=pg9r6)_i$ejzah35$+n^s*!yi=^et*@fz6z^gc^71mo$cx"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['53967122e7aa.ngrok.io']
 
 
 # Application definition
@@ -178,3 +178,4 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY','')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
