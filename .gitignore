@@ -4,3 +4,5 @@ __pycache__
 env.py
 venv
 .vscode/
+stripe.exe
+ngrok.exe
